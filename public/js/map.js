@@ -47,9 +47,9 @@ var fluvial_flood_plain_1000 = new ol.layer.Image({
     opacity : 0.6,
     visible : true,
     source: new ol.source.ImageWMS({
-        url: 'http://paikkatieto.ymparisto.fi/arcgis/services/Tulva/Tulvariskiaineistot_perusskenaariot_toistuvuuksittain_WGS/MapServer/WmsServer?',
+        url: 'http://paikkatieto.ymparisto.fi/arcgis/services/Tulva/Tulvariskiaineistot_perusskenaariot_toistuvuuksittain_WGS/MapServer/WMSServer?',
         params: {
-            'LAYERS': '50',
+            'LAYERS': '43',
             'VERSION': '1.3.0'
         }
         
