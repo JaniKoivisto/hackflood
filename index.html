@@ -36,6 +36,12 @@
                         Flood warnings
                     </label>
             </div>
+            <div class="form-check disabled">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked>
+                        Flood cameras
+                    </label>
+            </div>
         </div>
         <div id="report-button-space" class="btn-group">
                 <button type="button" id="report-button"class="btn btn-default" data-dismiss="modal">Report</button>
@@ -61,16 +67,7 @@
     </div>
     <div id="popup" class="ol-popup">
             <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-            <div id="popup-content">
-                <b><p id="popup-text">Report a flood event</p></b>
-                <p id="popup-text-lower">Severity:</p>
-                <label class="radio-inline"><input type="radio" name="optradio">1</label>
-                <label class="radio-inline"><input type="radio" name="optradio">2</label>
-                <label class="radio-inline"><input type="radio" name="optradio">3</label>
-                <label class="radio-inline"><input type="radio" name="optradio">4</label>
-                <label class="radio-inline"><input type="radio" name="optradio">5</label>
-                <button type="button" id="submit-button"class="btn btn-default btn-xs" data-dismiss="modal">Submit</button>
-            </div>
+            <div id="popup-content"></div>
     </div>
     
     <script type="text/javascript">  
