@@ -96,3 +96,8 @@
   .ol-zoom {
     top:3em;
  }
+ #source {
+     position: absolute;
+     z-index: 1;
+     font-size: 0.6rem;
+ }
